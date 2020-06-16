@@ -11,20 +11,40 @@
 
 // 3. Now add an ellipse command to draw a circle. An ellipse is like an oval.
 
-//    The ellipse command looks like this:      
+//    The ellipse command looks like this: 
+//fill(#F70A0A);
  ellipse(550,550, 150,150);
  ellipse(550,450, 125,125);
  ellipse(550,355, 100,100);
-//    The first 2 numbers specify where to draw it. They are the x and y co-ordinates of the center of the ellipse.
+ fill(#0A0101);
+  ellipse(530,340, 23,23);
+  ellipse(575,340, 23,23);
+  
+  ellipse(550,430, 23,23);
+   ellipse(550,470, 23,23);
+    ellipse(550,540, 23,23);
+    fill(#C6AA4C);
+     ellipse(200,400, 50,50);
+ // fill(#0A0404);
+  
+//    The first 2 numbers specify where to draw it. They are the x and y co-ordinates of the center of the ellipse. //<>//
 //    The third and fourth numbers are the size of the ellipse.
 //    The width is specified before the height. If they are the same, it draws a circle
-//    Change the numbers and re-run the program to see what happens.
+//    Change the numbers and re-run the program to see what happens. //<>//
 
-// 4. Now add a rect command to draw a rectangle.
+// 4. Now add a rect command to draw a rectangle. //<>//
 
-//    The rect command looks like this:       
+//    The rect command looks like this: //<>//
+fill(#0A0404);
 rect(470,300, 150,25);
 rect(495,200, 100,100);
+fill(#765522);
+rect(595,425, 125,10);
+rect(395,425, 125,10 );
+fill(#EDAE4F);
+//rect(545,360, 10,10);
+//rect(540,360, 5,20);
+triangle(550,350,560,350,555,370);
 
 //    Like the ellipse, the fist 2 numbers specify where to draw it, the other two are its size.
 //    The main difference is the x and y co-ordinates are the top left corner of the shape.
@@ -40,7 +60,7 @@ rect(495,200, 100,100);
 
 //    Paste the code for your selected color between the parentheses.
 //    It should now look something like this (the code will be different):   
-fill(#FFA850);
+//fill(#FFA850);
 
 // 6. The next shape you draw will be in the color you selected. 
 //    NOTE: You have to put the fill command with the color you want, 
