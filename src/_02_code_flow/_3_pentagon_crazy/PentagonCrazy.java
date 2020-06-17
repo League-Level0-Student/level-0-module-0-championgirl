@@ -14,7 +14,7 @@ public class PentagonCrazy {
 		//  Create a new Robot
 		Robot coder = new Robot();
 		//  Put the robot's pen down
-coder.penDown();
+		coder.penDown();
 		//  SPEED. Make the robot go at maximum speed (100)
 coder.setSpeed(1000);
 		//  COLOR. Set the pen to a color that you like for the shape

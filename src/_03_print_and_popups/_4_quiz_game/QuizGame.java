@@ -1,11 +1,14 @@
 package _03_print_and_popups._4_quiz_game;
 
+import javax.swing.JOptionPane;
+
 public class QuizGame {
 	public static void main(String[] args) {
 		
 		// Create a variable to hold the user's score. Set it equal to zero. 
-		
+		int score=0;
 		// ASK A QUESTION AND CHECK THE ANSWER
+		tring a=JOptionPane.showInputDialog("Do you like goats?");
 		
 				// 2.  Ask the user a question 
 				

@@ -25,7 +25,7 @@ public class RobotSpiral {
 			coder.setRandomPenColor();
 				// DRAW.    Move the robot (5*i) pixels
 				//          "i" is the variable in the for loop	
-			coder.move(1*i);
+			coder.move(5*i);
 				// TURN.    Turn the robot (360/7) degrees to the right
 			coder.turn(360/7);
 				// Change the robot pen width to (i)
